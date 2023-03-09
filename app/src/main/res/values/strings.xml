@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">testtt</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="log">"Login failed"</string>
+    <string name="enter">"Waiting automatically detect an SMS send to "</string>
+    <string name="space">-- -- -- -- -- --</string>
+    <string name="enterdigit">"Enter 6 digit code"</string>
+    <string name="enternum">Enter your phone number</string>
+    <string name="chitchat">        Chitchatapp will send a SMS message to verify your</string>
+    <string name="phonenum">phonenumber</string>
+    <string name="twonum">+91</string>
+    <string name="sms">Carrier SMS charge may apply"</string>
+    <string name="next">Next</string>
+    <string name="countcode">+91</string>
+    <string name="ChitChat">ChitChat</string>
+
+</resources>

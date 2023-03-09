@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/enternum"
+            android:textAlignment="center"
+            android:textColor="#FFC107"
+            android:textSize="23sp"
+            android:textStyle="bold|italic"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:text="@string/chitchat"
+            android:textColor="@color/black"
+            android:translationY="40dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:text="@string/phonenum"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:translationY="40dp" />
+
+        <EditText
+            android:id="@+id/countrycode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="@string/countcode"
+            android:translationY="50dp" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="71dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/phonenum"
+            android:inputType="phone"
+            android:translationY="60dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPhone"
+            android:layout_marginTop="38dp"
+            android:layout_marginBottom="350dp"
+            android:text="@string/sms"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:translationY="40dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPhone"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#FFEB3B"
+
+            android:text="@string/next"
+            android:translationY="150dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

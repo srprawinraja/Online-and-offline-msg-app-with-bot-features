@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "644288057267",
+    "firebase_url": "https://fir-phonevia-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-phonevia",
+    "storage_bucket": "fir-phonevia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644288057267:android:a07bfa4ae7d8038d5945c6",
+        "android_client_info": {
+          "package_name": "com.example.testtt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644288057267-3gthlrhp8l0febvsern5t8v6d09tk2bg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testtt",
+            "certificate_hash": "4e9a540e5df769146d053665a4b532e57f4c53cb"
+          }
+        },
+        {
+          "client_id": "644288057267-aleiekd40ud983f5qupa65a31d6tjn2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1GqvvnuxCL_JOIIoPmtxMJJv93KuMufo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644288057267-aleiekd40ud983f5qupa65a31d6tjn2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
