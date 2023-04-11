@@ -7,6 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
 
 import android.Manifest;
 import android.content.Intent;
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     Intent i;
     EditText nameedit;
-
+    String data;
     ActivityResultLauncher<String[]> permission;
     private boolean  contact=false;
     private boolean storage=false;
@@ -51,8 +52,10 @@ public class MainActivity extends AppCompatActivity {
            String ph = getIntent().getStringExtra("lastkey");
 
             storedata(name,ph);
+            data= getIntent().getStringExtra("data");
             i = new Intent(getApplicationContext(),home_activity.class);
             i.putExtra("key1",name);
+            i.putExtra("data",data);
             startActivity(i);
         });
         permission = registerForActivityResult(new ActivityResultContracts.RequestMultiplePermissions(), new ActivityResultCallback<Map<String, Boolean>>() {
@@ -62,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     contact= Boolean.TRUE.equals(result.get(Manifest.permission.READ_CONTACTS));
                 }
                 if(result.get(Manifest.permission.READ_EXTERNAL_STORAGE)!=null){
-                    contact= Boolean.TRUE.equals(result.get(Manifest.permission.READ_EXTERNAL_STORAGE));
+                    storage= Boolean.TRUE.equals(result.get(Manifest.permission.READ_EXTERNAL_STORAGE));
                 }
             }
         });
@@ -77,6 +80,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    }
+
     private void requestonpermission() {
         contact= ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS)== PackageManager.PERMISSION_GRANTED;
         storage= ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE)== PackageManager.PERMISSION_GRANTED;
@@ -95,5 +104,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
 
 }

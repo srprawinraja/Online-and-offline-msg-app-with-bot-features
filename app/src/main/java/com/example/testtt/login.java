@@ -31,11 +31,11 @@ public class login extends AppCompatActivity {
     String code;
     Intent i;
     EditText textotp;
-    String phnum;
+    String phnum,data;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login2);
-        String data= getIntent().getStringExtra("keyName");
+         data= getIntent().getStringExtra("keyName");
 
 
         TextView textViewlog;
@@ -104,7 +104,7 @@ public class login extends AppCompatActivity {
 
                 @Override
                 public void onVerificationFailed(@NonNull FirebaseException e) {
-                    phnum = i.getStringExtra("keyName");
+
                     storedata(phnum);
                 }
             };
@@ -125,6 +125,7 @@ public class login extends AppCompatActivity {
 
                         i = new Intent(getApplicationContext(),MainActivity.class);
                         i.putExtra("lastkey",getIntent().getStringExtra("keyName"));
+                        i.putExtra("data",data);
                         startActivity(i);
 
                         Toast.makeText(login.this, "verification completed", Toast.LENGTH_SHORT).show();

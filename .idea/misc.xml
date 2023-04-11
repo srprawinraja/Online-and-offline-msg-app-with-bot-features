@@ -4,17 +4,42 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/ic_baseline_bluetooth_24.xml" value="0.1" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/ic_baseline_bluetooth_searching_24.xml" value="0.1" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.108" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.108" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.108" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.108" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.11" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/line.xml" value="0.1" />
-        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_home.xml" value="0.16" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/rec.xml" value="0.108" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/receive.xml" value="0.108" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/drawable/send.xml" value="0.1" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.15796519410977242" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout-w936dp/activity_geek.xml" value="0.133203125" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout-w936dp/activity_login.xml" value="0.184375" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout-w936dp/custom_messages_layout.xml" value="0.133203125" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout-w936dp/fragment_bluetooth.xml" value="0.1875" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout-w936dp/fragment_homefragment.xml" value="0.1875" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_bluetoooth_permission.xml" value="0.25" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_bluetooth_chatting.xml" value="0.2359375" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_bluetooth_permission.xml" value="0.2359375" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_bluetooth_search.xml" value="0.2" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_chat_ui.xml" value="0.2" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_geek.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_login.xml" value="0.24583333333333332" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_login2.xml" value="0.1953125" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_setting.xml" value="0.25" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_setting2.xml" value="0.17760416666666667" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/bluetoothchatxml.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/custom_messages_layout.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/layout/list_view_item.xml" value="0.17760416666666667" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/menu/menu.xml" value="0.2" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/PRAWIN/AndroidStudioProjects/testtt/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
